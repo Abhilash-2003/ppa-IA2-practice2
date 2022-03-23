@@ -15,7 +15,7 @@ int check_scalene(int a, int b, int c)
 }
 void output(int a, int b, int c, int isscalene)
 {
-  if(isscalene=0)
+  if(isscalene==0)//give double assignment operator(=)
   printf("scalene");
   else
   printf("not scalene");
